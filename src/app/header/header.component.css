@@ -1,0 +1,22 @@
+
+.navbar-brand{
+    color: #FEF6E6;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+
+.navbar-nav li a{
+    color: #FEF6E6;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.Take{
+    padding: 18px ;
+    background-color: #EA8F10;
+    color: #FEF6E6;
+    border: none;
+}

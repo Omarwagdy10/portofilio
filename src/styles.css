@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    background-color: #212321;
+    color: #FEF6E6;
+}
+
+.data{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 85px;
+}

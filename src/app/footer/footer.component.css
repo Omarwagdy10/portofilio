@@ -1,0 +1,54 @@
+.container-fluid{
+    background-color: #212321;
+    color: #FEF6E6;
+    padding: 50px 0px;
+
+}
+
+.hello{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0px;
+}
+.hello::before{
+    content: "";
+    width: 70px;
+    height: 1px;
+    background-color:#EA8F10;
+
+}
+
+.aboutme2{
+    padding: 0px 70px;
+}
+
+.aboutme22{
+    border: solid 1px #FEF6E6;
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px ;
+    box-shadow: 7px 3px 20px #696D6E;
+}
+
+.aboutme{
+    padding: 20px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.about h4 a{
+    text-decoration: none;
+    color: #FEF6E6;
+}

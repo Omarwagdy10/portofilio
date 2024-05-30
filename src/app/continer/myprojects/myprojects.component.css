@@ -1,0 +1,67 @@
+.container-fluid {
+  background-color: white;
+  color: #212321;
+  padding: 50px 0px;
+}
+
+.hello {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0px;
+}
+.hello::before {
+  content: "";
+  width: 70px;
+  height: 1px;
+  background-color: #ea8f10;
+}
+.projects {
+  padding: 0px 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  row-gap: 20px;
+}
+
+.project {
+  width: 40%;
+  border-radius: 10px;
+  overflow: hidden;
+  border: solid 1px;
+}
+
+.projects .project .project_img {
+  width: 100%;
+}
+
+.projects .project .project_img img {
+  width: 100%;
+}
+
+.project_details {
+  padding: 5px;
+}
+
+.techniques {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0px;
+  color: #ea8f10;
+  font-weight: 700;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.techniques h6 {
+  font-size: 20px;
+}
+
+@media (width < 800px) {
+  .project {
+    width: 100%;
+
+  }
+}

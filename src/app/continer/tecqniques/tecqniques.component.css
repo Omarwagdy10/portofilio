@@ -1,0 +1,54 @@
+.container-fluid{
+    background-color:#FEF6E6 ;
+    color: #212321;
+    padding: 50px 0px;
+}
+
+.hello{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0px;
+}
+.hello::before{
+    content: "";
+    width: 70px;
+    height: 1px;
+    background-color:#EA8F10;
+
+}
+
+.frontend{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 0px 70px;
+}
+
+.frontend .icon i{
+    font-size: 65px;
+    cursor: pointer;
+    transition: .8s;
+}
+.frontend .icon i:hover{
+    transform: scale(1.4);
+    color: #EA8F10;
+}
+
+.process_container{
+    padding: 0px 70px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+
+
+
+.progress{
+    background-color: #FEF6E6;
+    display: flex;
+}
+
