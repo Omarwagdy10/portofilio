@@ -27,10 +27,11 @@
 .aboutme22{
     border: solid 1px #FEF6E6;
     width: 100%;
-    font-size: 20px;
+    font-size: 18px;
     padding: 10px;
     border-radius: 10px ;
     box-shadow: 7px 3px 20px #696D6E;
+
 }
 
 .aboutme{
@@ -51,4 +52,5 @@
 .about h4 a{
     text-decoration: none;
     color: #FEF6E6;
+
 }
