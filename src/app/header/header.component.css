@@ -1,4 +1,8 @@
-
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
 .navbar-brand{
     color: #FEF6E6;
     font-size: 25px;
@@ -19,4 +23,20 @@
     background-color: #EA8F10;
     color: #FEF6E6;
     border: none;
+}
+
+.button{
+    border: solid 1px;
+    padding: 10px 15px;
+    background-color:  #EA8F10;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.button a{
+    text-decoration: none;
+    color: #FEF6E6;
+
 }

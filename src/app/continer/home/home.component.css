@@ -46,6 +46,35 @@
     line-height: 500px;
 }
 
+@media (width<1200px) {
+
+    .data .p1{
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .data .img1{
+        width: 40%;
+        display: flex;
+        margin: auto;
+    }
+    
+}
+
+@media (width<1000px) {
+
+    .data .p1{
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .data .img1{
+        width: 40%;
+        display: flex;
+        margin: auto;
+    }
+    
+}
 
 @media (width<800px) {
 
@@ -56,7 +85,7 @@
     }
 
     .data .img1{
-        width: 70%;
+        width: 80%;
         display: flex;
         margin: auto;
     }
